@@ -11,16 +11,25 @@ $themeColor: #4fbec7;
   background: #fff;
   .dashboard-header-logo {
     min-width: 280px;
+    @media (max-width: 767px) {
+      min-width: 140px;
+    }
     img {
       height: 50px;
     }
   }
   .dashboard-header-right {
     width: calc(100% - 280px);
+    @media (max-width: 767px) {
+      width: calc(100% - 140px);
+    }
   }
   .dashboard-profile {
     cursor: pointer;
     margin-right: 30px;
+    @media (max-width: 767px) {
+      margin-right: 10px;
+    }
     .image {
       height: 35px;
       width: 35px;
@@ -38,6 +47,7 @@ $themeColor: #4fbec7;
 }
 .search-box {
   position: relative;
+
   input {
     height: 40px;
     border: 1px solid #e5e5e5;
@@ -45,21 +55,36 @@ $themeColor: #4fbec7;
     border-radius: 4px;
     padding: 0px 50px 0px 15px;
     background: #fafafa;
+    @media (max-width: 991px) {
+      display: none;
+    }
   }
   i {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     right: 15px;
+    @media (max-width: 991px) {
+      display: none;
+    }
   }
 }
 .date-time {
   font-weight: 500;
+  @media (max-width: 1200px) {
+    display: none;
+  }
 }
 .left-sidebar {
   background: #fff;
   min-width: 280px;
   padding: 40px 0px;
+  @media (max-width: 991px) {
+    min-width: 220px;
+  }
+  @media (max-width: 767px) {
+    min-width: 100%;
+  }
   .menu-label {
     display: block;
     text-transform: uppercase;
@@ -101,15 +126,28 @@ $themeColor: #4fbec7;
 }
 .main-content {
   width: calc(100% - 280px);
+  @media (max-width: 991px) {
+    width: calc(100% - 220px);
+  }
+  @media (max-width: 767px) {
+    width: 100%;
+  }
 }
 .main-wrapper {
   width: calc(100% - 350px);
   padding: 30px;
+  @media (max-width: 1200px) {
+    width: 100%;
+  }
 }
 .right-sidebar {
   background: #fff;
   width: 350px;
   padding: 0px 30px;
+  @media (max-width: 1200px) {
+    width: 100%;
+    background: #f9fafc;
+  }
 }
 .dashboard-title {
   margin-bottom: 40px;
