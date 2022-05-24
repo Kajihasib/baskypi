@@ -3677,7 +3677,8 @@ body.dark {
 .dark .language-picker__button em,
 .dark .security-item-title,
 .dark .section-title,
-.dark .page-title {
+.dark .page-title,
+.dashboard-profile .name {
   color: var(--bs-FFFFFF);
 }
 
