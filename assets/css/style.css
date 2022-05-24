@@ -2225,6 +2225,10 @@ img.white-logo {
   .theme-nav {
     display: none;
   }
+  .theme-responsive-nav .container {
+    width: 100%;
+    max-width: 100%;
+  }
 }
 
 .section-des-other {
