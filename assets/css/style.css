@@ -976,6 +976,7 @@ img {
   border-radius: 12px;
   /* border: 1px solid #ccc; */
   cursor: pointer;
+  font-size: 14px;
 }
 
 .select-styled.active {
@@ -1265,7 +1266,7 @@ img.white-logo {
 }
 
 .theme-nav .navbar .navbar-nav .nav-item a {
-  font-size: 18px;
+  font-size: 14px;
   line-height: 21px;
   font-weight: normal;
   color: var(--heading-color);
@@ -2940,7 +2941,7 @@ ul#fileList {
   font-style: normal;
   color: #343434f9;
   font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   padding-left: 8px;
 }
 
