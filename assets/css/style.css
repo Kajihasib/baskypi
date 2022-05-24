@@ -3682,7 +3682,7 @@ body.dark {
 .dark .security-item-title,
 .dark .section-title,
 .dark .page-title,
-.dashboard-profile .name {
+.dark .dashboard-profile .name {
   color: var(--bs-FFFFFF);
 }
 
