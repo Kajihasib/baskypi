@@ -2096,6 +2096,7 @@ img.white-logo {
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0px 3px 20px #00000029;
   opacity: 1;
+  position: relative;
 }
 
 .navbar-area.is-sticky {
@@ -3682,14 +3683,48 @@ body.dark {
 .dark .security-item-title,
 .dark .section-title,
 .dark .page-title,
-.dark .dashboard-profile .name {
-  color: var(--bs-FFFFFF);
+.dark .dashboard-profile .name,
+.dark .dashboard-title h1,
+.dark .dashboard-title p,
+.dark .left-sidebar .dashboard-mainmenu li a,
+.dark .activity-card .title,
+.dark .activity-card .value,
+.dark .price-list li span,
+.dark .price-list li h4,
+.dark .select-style,
+.dark .buy-sale-wrap .buy-sale-menu li a,
+.dark .buy-sale-wrap h2,
+.dark .recent-transaction-list li h4 {
+  color: var(--bs-FFFFFF) !important;
 }
-
-.dark .trade-margin-heading-item .title {
+.dark .buy-sale-wrap .buy-sale-menu li a.active {
+  color: #4fbec7 !important;
+}
+.dark .trade-margin-heading-item .title,
+.dark .filter-wrap li {
   color: var(--bs-929292);
 }
-
+.dark .buy-sale-wrap .btc-price li {
+  background: #282837;
+  color: #fff;
+}
+.dark .home-dashboard-area {
+  background: rgba(30, 30, 52, 1);
+  border-color: #404041;
+}
+.dark .left-sidebar,
+.dark .right-sidebar,
+.dark .card-wrap,
+.dark .activity-card {
+  background: #282837;
+  box-shadow: none;
+}
+.dark .highcharts-background {
+  fill: #282837 !important ;
+}
+.dark .buy-sale-wrap {
+  background: #2d2d39;
+}
 .dark .color-343434F9 {
   color: var(--bs-888888) !important;
 }

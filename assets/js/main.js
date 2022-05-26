@@ -379,4 +379,9 @@
       },
     ],
   });
+
+  $('.menu-trigger').on('click', function () {
+    $(this).toggleClass('active');
+    $('.responsive-menu').toggleClass('active');
+  });
 })(jQuery);
